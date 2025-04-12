@@ -1,15 +1,21 @@
 Jenkins Basics
+
 What is Jenkins, and why is it used?
 Answer: Jenkins is an open-source automation server primarily used for continuous integration and continuous delivery (CI/CD). It helps automate repetitive tasks in the software development lifecycle, such as building, testing, and deploying code, allowing for faster and more reliable releases.
+
 Explain CI/CD and Jenkins's role in it.
 Answer: CI/CD is a set of practices for automatically building, testing, and deploying applications. Jenkins enables CI/CD by automating tasks like code integration, testing, and deployment, ensuring code changes are quickly validated and deployed.
+
 What is a Jenkins job, and what are its types?
 Answer: A Jenkins job represents a runnable task. Jenkins offers various types, such as Freestyle projects, Pipeline projects, and Multibranch Pipeline projects. Each type provides different configurations for building, testing, and deploying applications.
+
 What are Jenkins Pipelines, and how do they work?
 Answer: Pipelines are a suite of plugins in Jenkins that allow defining and automating complex workflows as code using Jenkinsfile. A pipeline contains multiple stages (e.g., build, test, deploy) and provides a more flexible way to control the CI/CD process.
+
 What is a Jenkinsfile, and why is it important?
 Answer: A Jenkinsfile is a script defining a Jenkins pipeline in code, allowing version control of the pipeline configuration. It enables teams to define CI/CD workflows as code and store them in the project's repository.
 Jenkins Installation and Configuration
+
 How do you install Jenkins?
 Answer: Jenkins can be installed on multiple OS platforms. Typically, it involves installing Java, downloading the Jenkins WAR file, and starting Jenkins using a servlet container like Tomcat or using native package managers (like apt, yum, or brew).
 How do you configure Jenkins for optimal performance?
