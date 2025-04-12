@@ -33,15 +33,20 @@ Answer: ELB distributes incoming application traffic across multiple targets. Ty
 
 What is Amazon ECS, and how does it differ from EKS?
 Answer: Amazon ECS (Elastic Container Service) is a container orchestration service using AWS’s own management, while EKS (Elastic Kubernetes Service) is a fully managed Kubernetes service. ECS is simpler for AWS-native container management, whereas EKS is Kubernetes-compliant.
+
 What is AWS Lambda, and when would you use it?
 Answer: AWS Lambda is a serverless compute service where users run code in response to events without managing servers. It's suitable for event-driven applications like file processing, data streaming, and API backends.
 AWS Storage and Databases
+
 Explain Amazon RDS and its benefits.
 Answer: Amazon RDS (Relational Database Service) is a managed database service supporting multiple engines (e.g., MySQL, PostgreSQL, MariaDB, SQL Server, Oracle). It offers automated backups, scaling, and maintenance.
+
 What is Amazon Aurora, and how does it differ from traditional RDS databases?
 Answer: Amazon Aurora is a MySQL- and PostgreSQL-compatible relational database optimized for high performance and scalability. It’s designed to be five times faster than MySQL and offers better fault tolerance and automated recovery.
+
 How does Amazon DynamoDB differ from Amazon RDS?
 Answer: DynamoDB is a fully managed NoSQL database, optimized for low-latency, high-performance applications. RDS is used for relational databases with structured data and SQL querying, while DynamoDB is more flexible for key-value or document-based data.
+
 What is AWS Elastic File System (EFS), and how is it used?
 Answer: EFS provides scalable, managed, and elastic network file storage for Linux-based EC2 instances. It’s designed for shared access by multiple EC2 instances and scales automatically to store files from different instances.
 
@@ -49,30 +54,42 @@ What is Amazon S3 Glacier, and when would you use it?
 Answer: S3 Glacier is a low-cost storage service for long-term data archiving. It’s ideal for data that’s rarely accessed but requires long-term retention, with retrieval options of minutes to hours.
 
 Networking  AWS
+
 What is a Virtual Private Cloud (VPC) in AWS?
 Answer: VPC is a virtual network for AWS resources that allows control over IP address ranges, subnets, route tables, and security groups, enabling private, secure connections for resources within AWS.
+
 Explain the purpose of a security group in AWS.
 Answer: Security groups act as virtual firewalls controlling inbound and outbound traffic to AWS resources, with rules based on IP address ranges and ports.
+
 What are subnets, and how do they work in AWS?
 Answer: Subnets partition a VPC into smaller IP address ranges. Public subnets are accessible from the internet, while private subnets are restricted, typically hosting sensitive resources.
+
 What is AWS Direct Connect?
 Answer: AWS Direct Connect provides a dedicated, high-speed connection from an on-premises data center to AWS, reducing latency and improving security compared to internet-based connections.
+
 What is AWS Route 53?
 Answer: Route 53 is a scalable DNS and domain registration service that directs user requests to AWS resources. It supports traffic management, health checks, and failover routing.
 AWS Security and Identity
+
 What is AWS Identity and Access Management (IAM)?
 Answer: IAM is a service for securely managing access to AWS resources by creating users, groups, and roles and assigning them permissions based on the principle of least privilege.
+
 Explain the difference between an IAM role and an IAM user.
 Answer: IAM users are for individuals with long-term credentials, while roles provide temporary access for AWS services or external users to perform specific tasks without permanent credentials.
+
 What are AWS security best practices?
 Answer: Key practices include enforcing multi-factor authentication (MFA), using IAM roles over root access, applying least privilege principles, enabling CloudTrail, and regular security audits.
+
 What is Amazon Inspector, and how does it work?
 Answer: Amazon Inspector is a security assessment service for identifying vulnerabilities in EC2 instances and applications, providing findings on security risks and compliance.
+
 How does AWS KMS (Key Management Service) work?
 Answer: AWS KMS is a managed service for creating and controlling cryptographic keys. It integrates with various AWS services to encrypt data at rest and in transit securely.
+
 AWS Application Services
 What is Amazon SNS, and how does it work?
 Answer: Amazon SNS (Simple Notification Service) is a messaging service for sending notifications to distributed systems via email, SMS, HTTP endpoints, or Lambda.
+
 What is Amazon SQS, and how does it differ from SNS?
 Answer: SQS (Simple Queue Service) is a message queuing service that decouples application components. Unlike SNS (which is a publish-subscribe model), SQS stores messages for asynchronous processing.
 What is AWS Elastic Beanstalk?
