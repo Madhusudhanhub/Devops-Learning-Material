@@ -25,7 +25,6 @@ top - Display Linux tasks (system monitoring)
 nano - A simple text editor
 vi/vim - A more advanced text editor
 
-
 Intermediate Commands
 tar - Archive files
 gzip/gunzip - Compress and decompress files
@@ -48,6 +47,7 @@ netstat - Print network connections, routing tables, interface statistics, masqu
 iptables - Administration tool for IPv4 packet filtering and NAT
 ufw - Uncomplicated Firewall, front-end for iptables
 
+
 Advanced Commands
 iptables - Administration tool for IPv4 packet filtering and NAT
 firewalld - Dynamic firewall management tool with D-Bus interface
@@ -61,3 +61,6 @@ dmesg - Print or control the kernel ring buffer
 sysctl - Configure kernel parameters at runtime
 systat - Collection of performance monitoring tools
 vmstat - Report virtual memory statistics
+
+
+commands will come forward
